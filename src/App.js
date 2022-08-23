@@ -1,24 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import CenterSection from'./components/CenterSection'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <CenterSection
+       h1Title="How Much Weight Gain By How Much Celoreis ?"
+       User_Weight="Your Weight ?"
+       Celories_Intake_Day="Your Celories Intake Each Day ?"
+       />
+    </>
   );
 }
 
