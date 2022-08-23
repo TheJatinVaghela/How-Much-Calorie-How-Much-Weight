@@ -29,8 +29,11 @@ code {
   flex-direction: column;
 width: 100%;
 gap: 1rem;
- 
+ align-items: baseline;
 }
 .INPUTS{
   width: 90%;
+}
+#Weight_After_Celories{
+  border: 2px solid red;
 }
